@@ -1,6 +1,6 @@
 #!/usr/bin/env -S julia --project
 using Base: cumsum
-
+    
 module AdventOfCodeDay01
     function parse_part1(filename::String)
         [parse_line_part1(line) for line in eachline(filename)]
